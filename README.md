@@ -34,3 +34,5 @@
     
 **Note** - The (*) prefix to ngFor indicates that the `<li>` element and its children constitute a master template.
 
+    /* click event binding */
+    <li (click)="onselect(item)"></li>
