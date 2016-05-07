@@ -19,7 +19,17 @@
     })
 
 **Note**- styles will only apply to component where define and won't "leak" to the outer HTM.
-    
+
+
+### Service
+
+    import { Injectable } from '@angular/core';
+
+    @Injectable()
+    export class HeroService {
+    }
+
+
 
 ### Template Binding
 
