@@ -13,7 +13,9 @@
                 background-color: #CFD8DC !important;
                 color: white;
             }
-        `]    
+        `],
+        
+        directives : [ MyCustomDirective ],     // referencce other commponent     
     })
 
 **Note**- styles will only apply to component where define and won't "leak" to the outer HTM.
